@@ -93,7 +93,7 @@ GAME.appendChild(rock)
      */
 
 
-       rock.style.top = `${top += 2}px`
+       rock.style.top = `${top += 6}px`
 
        if (top < 400) {
          window.requestAnimationFrame(moveRock)
